@@ -1,0 +1,173 @@
+.hos-bg {
+  background-image: url(../../img/hospital.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.map-bg {
+  background-image: url(../../img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 50px;
+}
+.find-hospital-bg{
+  background-image: url(../../img/hospital-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*height: 550px;*/
+}
+.hopspital-details {
+  /*background: linear-gradient(180deg, 0#F4F6F8 3.21%, #FFFFFF 100%);*/
+  background-image: linear-gradient(#F4F6F8, #ffffff);
+}
+.hos-name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #666;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.tab-padding {
+  padding: 35px 40px 0 40px;
+}
+.btn-alt.small.hos-btn {
+  display: block;
+  padding: 0;
+  margin: 0 25px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*Hospital redesign*/
+.location-area h4{
+  margin-bottom: 10px;
+}
+.padding-10 {
+  padding: 10px 0;
+}
+.location{
+  margin-bottom: 10px !important;
+}
+
+.location .ion-ios-email-outline,
+.location .ion-ios-telephone-outline  {
+  font-size: 22px;
+  padding-right: 5px;
+}
+.location span {
+  font-weight: 500;
+}
+.hospital-bg{
+  background: #f1f1f1;
+}
+.doc-single.search-list.hospital-doctor-list {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+  margin-bottom: 15px;
+}
+.hopspital-details .tab-padding {
+  padding: 35px 0px 0 40px;
+}
+.hospital-doctor-list .doc-images img {
+  width: 100%;
+  padding: 15px 0;
+}
+.hospital-doctor-list .doctor-info {
+  padding: 10px 10px 10px 0;
+}
+.hospital-doctor-list .doctor-info h4 {
+  font-size: 16px;
+}
+.hospital-doctor-list .doctor-info .sp-icon {
+  font-weight: 500;
+}
+.hospital-doctor-list .doctor-info p {
+  line-height: 20px;
+}
+.hopspital-details .tab-content .tab-pane {
+  margin-top: 25px;
+  background: #fff;
+  padding: 15px;
+}
+.hopspital-details .tab-content  #tab-two.active {
+  margin-top: 25px;
+  background: transparent !important;
+  padding: 0;
+}
+.discount-list table{
+  border: 0px solid #fff !important;
+}
+.discount-list table tr:nth-child(odd){
+  background: #f3f3f3;
+}
+.discount-list table td{
+  border: 1px solid #e1e1e1 !important;
+  padding: 6px !important;
+}
+.discount-list h6 {
+  padding: 10px 0;
+  color: #555 !important;
+  font-weight: 500 !important;
+}
+.hospital-info-area{
+  background: #fff;
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+}
+.hospital-tab-area{
+  margin-top: 20px;
+}
+.hospital-tab-area {
+  margin-top: 25px;
+  float: left;
+  width: 100%;
+}
+.ad-map img{
+  min-height: 305px;
+}
+.location-area {
+  margin-left: 20px;
+  float: left;
+  width: 100%;
+}
+.hos-side-images {
+  background-image: url(../../img/hos-pomotions.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 215px;
+  width: 100%;
+  background-color: #ffff;
+  margin-top: 25px;
+}
+.location-area .fixed-content .btn-alt.small.active.doc-btn {
+  width: 100px;
+
+}
+
+.ad-map {
+  min-height: 300px;
+}
+.discount-list{
+  position: relative;
+}
+.discount-list .doc-overly {
+  min-height: 192px;
+  position: absolute;
+  padding: 0px;
+}
+.discount-list .doc-overly .premium-content {
+  background: rgba(255,255,255,.9);
+  width: 100%;
+  float: none;
+  margin: 20px auto;
+  padding: 0px;
+}
+.location a{
+  color: #888b8d;
+}

@@ -1,0 +1,26 @@
+a {color: #0087C3;text-decoration: none;}
+html{background: #f1f1f1; margin: 0; padding: 20px;}
+p{margin: 0;}
+body{
+    position: relative;
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto 0 !important;
+    padding: 0 !important;
+    color: #555555;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-family: SourceSansPro;
+    background: url("assets/img/daktarbhai8-logo.png") no-repeat;
+}
+
+.name {
+    width: 150px;
+}
+.past {
+    margin: 5px 0px 5px 0px !important;
+}
+.medication{
+    margin: 10px 0px 10px 20px;
+}

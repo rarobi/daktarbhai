@@ -1,0 +1,786 @@
+/*Start Doctor page*/
+.doctor-search-form .form-control {
+	height: 45px;
+	padding: 3px 12px;
+	font-size: 14px;
+	font-weight: 300;
+  border-radius:  5px !important;
+}
+.doctor h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+.doctor h2 span{
+  color: #fff;
+}
+.doctor-search-form .btn-alt.small.active.margin-null {
+  height: 45px;
+  padding: 3px 12px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+.doc-bg{
+  background-image: url(../../img/find_doctor_banner.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+.specialty .alt-services {
+	padding: 20px;
+}
+.specialty h6.heading {
+	font-size: 13px;
+}
+.doctor-list{
+  margin-top: 30px;
+}
+.doc-images {
+	width: 100%;
+  margin-top: 30px;
+}
+.doc-images img{
+  width: 100%;
+  /*padding: 15px 25px 15px 0;*/
+  border-radius: 155px;
+  height: 150px;
+}
+.doc-single {
+  border-radius: 2px;
+	/*box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);*/
+	margin: 25px;
+  width: 94%;
+  float: left;
+}
+.btn-alt.small.active.doc-btn {
+	display: block;
+	float: right;
+	width: 200px;
+	margin-top: 30px;
+	margin-right: 30px;
+  cursor: pointer;
+}
+.location .ion-ios-location-outline {
+	font-size: 22px;
+	padding-right: 5px;
+}
+.location span {
+	font-weight: 600;
+  display: inline-block;
+  margin-top: -10px;
+}
+.doc-search a.btn-alt.small.active:hover {
+	background-color: #fff;
+	color: #43e696 !important;
+  border: 1px solid #fff;
+}
+.specialty{
+    margin-top:30px;
+}
+.specialty img {
+	margin: 10px 0;
+    height: 60px;
+}
+.doc-single.search-list .doc-images {
+  padding: 0 15px 0 15px;
+}
+.doc-single.search-list .btn-alt.small.active.doc-btn {
+  float: left;
+  /*width: auto;*/
+  background-color: #36B7B4!important;
+  font-weight: 500;
+}
+.doc-single.search-list {
+  border-radius: 0px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+  margin: 10px 25px;
+  float: left;
+}
+.doctor-sidebar {
+  margin-right: 50px;
+  margin-top: 10px;
+  background: #f1f1f1;
+}
+.doctor-sidebar h5 {
+  color: #555;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f1f1f1;
+}
+.gendar {
+  float: left;
+  width: 100%;
+  padding-bottom: 30px;
+  /*background: #fcfcfc;*/
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
+.gendar .checkbox {
+  padding: 10px;
+  color: #555;
+}
+.gendar .ui-widget.ui-widget-content {
+  border: 1px solid #36B7B4;
+  margin: 15px;
+}
+.gendar .ui-widget-header {
+  background: #36B7B4;
+  margin-bottom: 20px;
+}
+.gendar .nice-select {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+/*Doctor Details*/
+.doc-specil li {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  color: #888B8D;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.sp-icon {
+  font-weight: 600;
+}
+.sp-icon img {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.related-doc h6, .hospital-doc h6 {
+  font-size: 16px !important;
+}
+.related-doc .sp-icon img, .hospital-doc .sp-icon img {
+  margin: 0px 10px 0 0;
+}
+.related-doc h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 20px;
+}
+.related-doc h2 span {
+  font-weight: 300;
+}
+.book-appoinment-area h3 {
+  /*background: #36B7B4;*/
+  color: #2f2f2f;
+  /*text-transform: uppercase;*/
+  padding: 5px 0;
+  border-radius: 2px;
+  margin-right: 40px;
+}
+.book-appoinment-area .panel .panel-heading {
+  background: #f1f1f1;
+  padding: 12px 20px;
+}
+.book-appoinment-area .panel-group .panel .panel-body {
+  padding: 20px;
+}
+.chamber a.btn-alt.small {
+  height: 30px;
+  line-height: 30px;
+}
+.chamber .panel .panel-heading h4.panel-title a {
+  display: block !important;
+  font-size: 15px;
+  line-height: 15px;
+  color: #666;
+}
+.doc-name {
+  color: #36B7B4;
+  line-height: 36px;
+}
+button.btn.btn-light.consultancy_fee {
+  border: 1px solid #36B7B4;
+  color: #000;
+}
+
+.col-md-12.slot-section {
+  margin-top: 100px;
+}
+
+/* Doctor details page datepicker css*/
+.date-picker {
+  margin: 200px auto;
+}
+.date-picker {
+  width: 300px;
+  height: auto;
+  max-height: 40px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s 0s ease-in-out;
+  transition: all 0.3s 0s ease-in-out;
+  margin: 10px 0;
+}
+.date-picker .input {
+  width: 100%;
+  height: 40px;
+  font-size: 0;
+  cursor: pointer;
+}
+.date-picker table th {
+  background: #36B7B4;
+  color: #fff !important;
+  text-align: left;
+  padding: 5px !important;
+  border: 1px solid #fff;
+  font-family: "Poppins", sans-serif;
+}
+.date-picker table td {
+  padding: 0px !important;
+  border: 1px solid #fff;
+}
+.date-picker .input .result, .date-picker .input a {
+  display: inline-block;
+  vertical-align: top;
+}
+.date-picker .input .result {
+  width: calc(100% - 50px);
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  padding: 0 10px;
+  color: grey;
+  box-sizing: border-box;
+  border: 1px solid #36B7B4;
+  font-weight: 500;
+}
+.date-picker .input a {
+  width: 50px;
+  height: 40px;
+  background-color: #36B7B4;
+  color: white;
+  line-height: 40px;
+  border: 0;
+  font-size: 18px;
+  padding: 0;
+}
+.date-picker .input a:hover {
+  background-color: #36B7B4;
+}
+.date-picker .input a:focus {
+  outline: 0;
+}
+.date-picker .fa.fa-calendar {
+  margin-left: 16px;
+}
+.date-picker .calendar {
+  position: relative;
+  width: 100%;
+  /*background: #fff;*/
+  border-radius: 0px;
+  overflow: hidden;
+}
+.date-picker .ui-datepicker-inline {
+  position: relative;
+  width: 100%;
+}
+.date-picker .ui-datepicker-header {
+  height: 100%;
+  line-height: 40px;
+  background: #999;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.date-picker .ui-datepicker-prev, .date-picker .ui-datepicker-next {
+  width: 20px;
+  height: 20px;
+  text-indent: 9999px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 12px;
+}
+.date-picker .ui-datepicker-prev {
+  float: left;
+  margin-left: 12px;
+}
+.date-picker .ui-datepicker-prev:after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: -34px 0px 0px 6px;
+}
+.date-picker .ui-datepicker-next {
+  float: right;
+  margin-right: 12px;
+}
+.date-picker .ui-datepicker-next:after {
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin: -34px 0px 0px 6px;
+}
+.date-picker .ui-datepicker-prev:after, .date-picker .ui-datepicker-next:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.date-picker .ui-datepicker-prev:hover, .date-picker .ui-datepicker-next:hover, .date-picker .ui-datepicker-prev:hover:after, .date-picker .ui-datepicker-next:hover:after {
+  border-color: #68768A;
+}
+.date-picker .ui-datepicker-title {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.date-picker .ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+.date-picker .ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.date-picker .ui-state-default {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  line-height: 30px;
+  font-size: 12px;
+}
+.date-picker .ui-state-default:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+.date-picker .ui-state-highlight {
+  color: #68768A;
+}
+.date-picker .ui-state-active {
+  color: #fff;
+  background-color: #36B7B4;
+  font-weight: 600;
+}
+.date-picker .ui-datepicker-unselectable .ui-state-default {
+  color: #ccc;
+  border: 2px solid transparent;
+}
+.date-picker.open {
+  max-height: 400px;
+}
+.date-serch.btn-alt.small.active {
+  background-color: #36B7B4;
+  color: white;
+  height: 40px;
+  line-height: 42px;
+  border: 1px solid #36B7B4;
+  transition: all .4s ease;
+  font-size: 14px;
+  display: block;
+  width: 200px;
+  border-radius: 2px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.date-serch.btn-alt.small.active:hover {
+  background-color: transparent;
+  color: #36B7B4 !important;
+}
+.schedule.btn-alt.small.inactive {
+  cursor: pointer;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 30px;
+  height: 30px;
+}
+a.btn-alt.small.inactive {
+  background-color: #ddd;
+  color: white;
+  border: 1px solid #ddd;
+  pointer-events: none;
+  color: #888;
+}
+.single-related-doc {
+  min-height: 430px !important;
+}
+
+.schedule.btn-alt.small.active.margin-null {
+  cursor: pointer;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 30px;
+  height: 30px;
+  color: #8C8C8C;
+  background-color: #fff;
+  border: 1px solid #36B7B4;
+}
+
+/* Appoinment Confarmation*/
+.request-appointment h5 {
+  background: #36B7B4;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  margin: 10px 0;
+}
+.request-appointment p {
+  margin: 0 20px;
+}
+.request-doc-info {
+  background: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 0 0 20px 0;
+}
+.req-app-form {
+  margin-bottom: 50px;
+}
+.req-app-form label {
+  color: #666;
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.req-app-form .form-control {
+  display: block;
+  width: 90%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #555;
+  font-weight: 300;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  margin-left: 20px;
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  margin-top: 10px;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.req-app-form .login-btn {
+  width: auto;
+  display: inline;
+  margin-left: 20px;
+  border: 1px solid #43e696;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+.con-mgs {
+  padding-bottom: 0px;
+  margin-bottom: 250px;
+  margin-top: 100px;
+}
+.doctor-pd{
+	padding:150px 0 0px 0 !important;
+}
+.doctor-search-form .col-md-3.search-form-left,
+.doctor-search-form .col-md-5.search-form-left,
+.doctor-search-form .col-md-4.search-form-left,
+.doctor-search-form .col-md-2.search-form-left,
+.doctor-search-form .col-md-1.search-form-left {
+    padding: 0 5px;
+}
+.doctor-search-form .ion-android-search {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+}
+.doctor-search-form a.btn-alt i {
+	margin-right: 0px;
+}
+.top-specialty {
+	float: left;
+	width: 100%;
+	padding-left: 15px;
+}
+.top-specialty p {
+	color: #fff !important;
+	text-align: center;
+	margin-top: 70px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.top-specialty ul {
+	float: none;
+	margin: 0 auto;
+	width: 85%;
+}
+.top-specialty ul li {
+	float: left;
+	width: 135px;
+	text-align: center;
+	margin: 10px;
+}
+.top-specialty ul li img {
+	width: 45px;
+	-webkit-transition: margin-top .4s ease;
+-moz-transition: margin-top .4s ease;
+-ms-transition: margin-top .4s ease;
+-o-transition: margin-top .4s ease;
+transition: margin-top .4s ease;
+}
+.top-specialty ul li a span{
+	display: block;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	-webkit-transition: margin-top .4s ease;
+-moz-transition: margin-top .4s ease;
+-ms-transition: margin-top .4s ease;
+-o-transition: margin-top .4s ease;
+transition: margin-top .4s ease;
+}
+.top-specialty ul li a:hover img{
+	margin-top: -5px;
+	opacity: 0.7;
+}
+.how-it-works h1 {
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+.how-it-works h6.heading {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 25px 0;
+	color: #666;
+}
+/*Doctor search*/
+#scrollable-dropdown-menu .tt-menu {
+  max-height: 350px;
+  overflow-y: auto;
+  background-color: white;
+}
+.inner-search{
+  padding: 25px 0 0px 0;
+}
+#scrollable-dropdown-menu .tt-menu {
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: white;
+  width: 100%;
+  padding: 20px 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+span.twitter-typeahead {
+  width: 100%;
+}
+.nice-select.district-list.form-control.location-search.custom-select.select2-hidden-accessible.open option {
+  background: white;
+  width: 110%;
+  margin-left: -5%;
+  padding: 0 20px;
+}
+.tt-dataset.tt-dataset-specialities h3, .tt-dataset.tt-dataset-doctors h3 {
+  font-size: 15px;
+  background: #f1f1f1;
+  padding: 3px 10px;
+}
+.tt-dataset.tt-dataset-doctors h3{
+  margin: 15px 0 5px 0;
+}
+.tt-suggestion.tt-selectable{
+  cursor: pointer;
+  padding-left: 20px;
+}
+.tt-suggestion.tt-selectable:hover{
+  background-color: #36B7B4;
+  color: #fff;
+}
+.doc-single.padding-sm.doctor-not-found{
+	margin-bottom: 300px;
+	margin-top: 50px;
+	box-shadow:0px 0px 0px 0px;
+
+}
+.doc-single.padding-sm.doctor-not-found img {
+	float: none;
+	margin: 25px auto;
+	/*width: 100px;*/
+	display: block;
+    height: 270px;
+}
+.doc-single.padding-sm.doctor-not-found h6 span{
+	font-weight: 600;
+}
+.calendar .datepicker-inline{
+  width: 100%;
+}
+.date-picker table th {
+  text-align: center !important;
+}
+.date-picker table td {
+  color: #444;
+  border: 1px solid #36B7B4;
+}
+.doc-single .btn.btn-sm.back-doc{
+	text-transform: capitalize;
+	color: #fff;
+	margin-top: 20px;
+	float:left;
+	background-color: #43e696;
+	height: 40px;
+	padding: 5px 10px;
+	height: auto;
+	line-height: 20px;
+	margin-top: -40px;
+	margin-bottom: 0px !important;
+	border:0px;
+}
+.payment-box {
+  width: 250px;
+  border: 1px solid #36B7B4;
+  box-shadow: 0px 5px 10px rgb(171 171 171 / 25%);
+  border-radius: 10px;
+  height: 130px;
+}
+
+img.payment-img-box {
+  width: 200px;
+  margin-left: 25px;
+  margin-top: 21px;
+}
+
+button.btn.confirm-btn {
+  width: 320px;
+  height: 50px;
+  background-color: #36B7B4;
+  color: #fff;
+}
+
+/*datepicker book appoinment*/
+.date-picker .ui-datepicker-header {
+	margin-bottom: 0px !important;
+}
+.date-picker .ui-datepicker-unselectable .ui-state-default {
+	border: 0px solid transparent !important;
+  background-color: #f1f1f1;
+}
+.date-picker table td {
+	border: 1px solid #fff !important;
+}
+.date-picker .ui-state-default {
+	color: #555;
+	background: #f1f1f1;
+}
+.date-picker .ui-state-active {
+	color: #fff;
+	background-color: #36B7B4;
+	font-weight: 600;
+}
+.date-picker .ui-state-default:hover {
+  background: #36B7B4;
+  color: #fff;
+}
+.ui-datepicker-title {
+	padding: 0;
+}
+.date-picker .ui-datepicker-prev, .date-picker .ui-datepicker-next {
+	margin-top: 6px;
+}
+.date-picker .ui-datepicker-header {
+	background: #36B7B4;
+}
+.ui-datepicker-calendar th{
+  background-color: transparent !important;
+}
+.date-picker .ui-datepicker-calendar thead tr th span {
+	color: #36B7B4 !important;
+}
+
+.single-doctor-box{
+  /*display: flex;*/
+  height: 500px;
+  width: 100%;
+}
+
+.promo-title{
+  font-family: Uni Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.user-info-form .form-control{
+  width: 80% !important;
+  padding: 20px 20px !important;
+  /*border: 1px solid #36B7B4 !important;*/
+  border-radius: 5px !important;
+
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+.radio_hide {
+ display: none;
+}
+
+.doc-search {
+  height: 90px;
+  background: #F7FCFC;
+  border: 0.5px solid #CED7D6;
+  box-sizing: border-box;
+  box-shadow: 5px -10px 50px rgb(0 0 0 / 25%);
+  border-radius: 10px 10px 0px 0px;
+}
+.search-form {
+  margin-top: 8px;
+}
+
+.checkbox input[type=checkbox]{
+  margin-top: 0px;
+}
+
+.request-box {
+  box-shadow: 10px 10px 35px #d9d9d9;
+}
+
+.request-box h5{
+  padding: 15px;
+  background:#36B7B4;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.patient-info-form label {
+  height: 30px;
+  width: 100px;
+  border: 0.2px solid #CCCCCC;
+  text-align: center;
+  padding: -3px;
+  border-radius: 2px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.patient-info-form label:hover {
+  color: #36B7B4;
+}
+
+.health-directory-bg{
+  background-image: url(../../img/health-directory-bg.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  height: 450px;
+}

@@ -1,0 +1,304 @@
+/*directory*/
+.dir-bg{
+	background-image: url(../../img/directory.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+}
+.health-directory-page h2 {
+	font-size: 35px;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+.health-directory-page a.btn-alt.small.active {
+	background-color: #ed1c24;
+	color: white;
+	border: 1px solid #ed1c24;
+}
+.directory-cat li {
+	float: left;
+	text-align: center;
+	min-width: 125px;
+}
+.dir-icon {
+	width: 70px;
+	height: 70px;
+	/*background: rgba(4, 92, 167, 0.3);*/
+	background: #00d4a4;
+	border-radius: 50%;
+	transition: all 0.4s ease 0s;
+}
+.dir-icon img{
+	padding: 15px;
+	width: 70px;
+}
+.directory-cat span {
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	font-size: 14px;
+}
+.directory-cat {
+	float: none;
+	margin: 0 auto;
+	width: 46%;
+}
+.directory-cat li a:hover .dir-icon {
+	/*background: rgba(4, 92, 167, 1);*/
+	background:#00d4a4;
+}
+.directory-search.doc-search {
+	/*background: rgba(255,255,255, 0.2);*/
+	padding: 15px;
+	border-radius: 5px;
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.directory-search.doc-search .form-group {
+	margin-bottom: 0px;
+	border-radius: 5px !important;
+}
+.dir-des{
+	color: #fff;
+	font-weight: 400;
+}
+.health-directory-page.doctor-pd{
+	/*padding: 130px 0 100px 0 !important;*/
+}
+.directory-list-page .thumbnail{
+	padding: 0px;
+	border: 0px solid #fff;
+	margin-bottom: 30px;
+	min-height: 550px;
+}
+.directory-list-page .thumbnail .caption {
+	padding: 15px 20px;
+	color: #333;
+}
+
+.directory-list-page h3 {
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.directory-list-page p span.directory-cat {
+	background: #00d4a4;
+	color: #fff;
+	padding: 1px 10px;
+	margin-right: 20px;
+}
+.separator {
+	margin: 15px 0;
+	border: 0;
+	border-bottom: solid 1px rgba(120,130,140,0.2);
+}
+.directory-list-page .thumbnail a.btn-alt {
+	padding-right: 8px;
+	padding-left: 8px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+	margin-left: 60px !important;
+	margin-bottom: 20px !important;
+	position: absolute;
+	bottom: 40px;
+	cursor: pointer;
+}
+.directory-list-page .thumbnail.hospitals a.btn-alt {
+	position: relative;
+	bottom: 0px;
+	cursor: pointer;
+
+}
+.directory-top-bar .directory-search{
+	margin: 20px 0px;
+	/*margin: 360px 0px;*/
+	margin-top: 360px;
+	background: #F7FCFC;
+}
+.health-tips-modal .modal-body {
+	position: relative;
+	padding: 15px;
+	overflow-y: auto;
+	max-height: 450px !important;
+}
+.health-tips-modal .modal-dialog {
+	width: 650px !important;
+	margin: 90px auto;
+}
+#map {
+	height: 350px;
+	width: 100%;
+}
+.panel-hos {
+	position: relative;
+}
+.panel-hos img{
+	width: 100%;
+}
+.panel-hos span {
+	position: absolute;
+	color: #fff;
+	left: 0;
+	font-size: 12px;
+	background: #00d4a4;
+	bottom: 6px;
+	padding: 3px 10px;
+	font-weight: 500;
+}
+.directory-list-page .dir-button-area a.btn-alt {
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 10px;
+	margin-left: 0px !important;
+}
+
+.directory-list-page .dir-button-area{
+	position: absolute;
+	bottom: 30px;
+}
+.directory-list-page .sin-button-area{
+	position: absolute;
+	bottom: 30px;
+	left:25px;
+}
+.directory-list-page .dir-button-area a.btn-alt i {
+	margin-right: 4px;
+}
+.thumbnail.hospitals {
+	min-height: 520px;
+}
+.tt-menu {
+	background: #fff;
+	width: 100%;
+	font-size: 14px;
+	padding: 5px 0;
+}
+.tt-suggestion.tt-selectable {
+	cursor: pointer;
+	padding-left: 20px;
+}
+ .tt-menu {
+	max-height: 300px;
+	overflow-y: auto;
+	background-color: white;
+	width: 100%;
+	padding: 20px 15px;
+	font-size: 14px;
+	line-height: 30px;
+}
+h3.league-name {
+	font-size: 15px;
+	background: #f1f1f1;
+	padding: 3px 10px;
+}
+.ui-dialog .ui-widget-overlay{
+	background: #000 !important;
+}
+.ui-dialog .ui-widget-header {
+	border: 1px solid #00d4a4 !important;
+	background: #00d4a4 !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.ui-dialog .ui-dialog-content{
+	height: auto !important;
+}
+.ui-dialog .ui-state-default, .ui-dialog .ui-widget-content .ui-state-default, .ui-dialog .ui-widget-header .ui-state-default {
+	border: #ed1c24 !important;
+	background: #ed1c24 !important;
+	font-weight: bold;
+	color: #fff !important;
+	padding: 5px 10px !important;
+	font-size: 14px !important;
+}
+.ui-dialog .ui-button-text-only .ui-button-text {
+	padding: 0 !important;
+}
+.ui-dialog .ui-corner-all {
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+}
+.hospital-filter {
+	float: left;
+	width: 60%;
+	padding-bottom: 30px;
+	background: #fcfcfc;
+	margin-bottom: 30px;
+	padding: 15px;
+	border: 1px solid #eaeaea;
+  margin-left: 20%
+}
+.hospital-filter .checkbox, .radio {
+	position: relative;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.hospital-filter label{
+  color: #333;
+}
+.thumbnail.hospitals.pharmacy,.thumbnail.hospitals.healthy-living {
+	min-height: 500px;
+}
+
+.card-title {
+	height: 50px;
+	background: #36B7B4;
+	padding: 12px;
+	border-radius: 10px 10px 0 0;
+}
+
+.card-title p {
+	color: white;
+}
+
+.btnShow{
+	background-color: #36B7B4 !important;
+	border: none !important;
+	letter-spacing: 0 !important;
+	text-transform: none !important;
+}
+
+.btnShow i{
+	margin-right: 0 !important;
+	padding: 2px 0;
+}
+.btnShow img{
+	height: 15px;
+	width: 15px;
+
+}
+.discount-btn{
+	background-color: #F7941E !important;
+	border: none !important;
+}
+
+.directory-list-page .thumbnail .directory-info-box{
+	 position: relative;
+	top: -30px;
+	/* border: 1px solid black; */
+	border-radius: 30px;
+	z-index: 0;
+	background: white;
+}
+
+.landphone-address i img{
+	top: 4px;
+	position: relative;
+}
+.mobile-no i img{
+	top: 2px;
+	position: relative;
+}
+
+.health-directory-page .directory-search{
+	/*margin-top: 150px;*/
+	margin-top: 60px;
+}

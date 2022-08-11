@@ -1,0 +1,49 @@
+/*About Us Page*/
+.about-bg {
+  background-image: url(../../img/ab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+.service-bg {
+  background-image: url(../../img/service-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+.about-page h3.big {
+  font-size: 32px !important;
+  line-height: 48px !important;
+  font-weight: 300;
+}
+.about-page h3.big .brand-color {
+  font-size: 32px !important;
+  line-height: 48px !important;
+  font-weight: 500;
+  color: #00d4a4;
+  text-transform: uppercase;
+}
+.about-page p {
+  text-align: justify;
+}
+.about-page h3.big .dark-black {
+  /*color: #000;*/
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-sec-two .content-section .text {
+  padding: 30px !important;
+}
+.about-page .service.material.left {
+  border-radius: 10px;
+  /*box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);*/
+  color: #00d4a4;
+  display: inline-block;
+  font-size: 30px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 60px;
+  float: left;
+  /*padding: 10px;*/
+}

@@ -1,0 +1,1140 @@
+/*  Profile page Start here */
+.side-menu{
+  margin-bottom: 200px;
+}
+.profile-update .login-form {
+  padding: 30px;
+  background: #f5f5f5;
+}
+
+.user-info{
+    padding: 30px;
+    /*background: #f5f5f5;*/
+    /*min-height: 433px;*/
+}
+.profile-images {
+  max-width: 200px;
+  /*border: 5px solid #f5f5f5;*/
+}
+div.bhoechie-tab-container {
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+div.bhoechie-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group {
+  margin: 50px 0;
+}
+div.bhoechie-tab-menu div.list-group h4 {
+  color: #666;
+  font-weight: 300;
+}
+.bhoechie-tab-menu .list-group-item.active.text-center h4 {
+  color: #fff;
+  font-weight: 500;
+}
+.bhoechie-tab-menu .list-group-item.active, .bhoechie-tab-menu .list-group-item.active:focus, .bhoechie-tab-menu .list-group-item.active:hover {
+  text-shadow: 0 -1px 0 #FF6D00;
+}
+div.bhoechie-tab-menu div.list-group>a {
+  margin-bottom: 5px;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon, div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #00d4a4;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child {
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child {
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active, div.bhoechie-tab-menu div.list-group>a.active .glyphicon, div.bhoechie-tab-menu div.list-group>a.active .fa {
+  background-color: #00d4a4 !important;
+  color: #ffffff;
+  text-shadow: 0px;
+}
+.bhoechie-tab-menu .list-group-item.active, .bhoechie-tab-menu .list-group-item.active:focus, .bhoechie-tab-menu .list-group-item.active:hover {
+  border-color: #00d4a4;
+  background: #00d4a4;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #00d4a4;
+}
+div.bhoechie-tab-content {
+	float: left;
+	width: 100%;
+}
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+  display: none;
+}
+.profile-update .form-control {
+  font-weight: 300;
+}
+#profile {
+  min-height: 750px !important;
+}
+.user-profile{
+  position: relative;
+}
+.profile-update-btn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+.profile-update-btn span{
+  font-weight: 600;
+}
+.user-profile h2 {
+  font-size: 22px;
+  /*border-bottom: 1px solid #ccc;*/
+  margin: 0px;
+}
+.user-profile p {
+  margin-bottom: 40px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.user-profile p span {
+  font-weight: 500;
+  min-width: 180px !important;
+  display: inline-block;
+  color: #555;
+}
+.profile-update .btn.btn-file {
+  color: #555;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 0;
+}
+.profile-update p:last-of-type {
+  margin-bottom: 10px !important;
+}
+.ui-datepicker-calendar {
+  background: #fff;
+}
+.ui-datepicker-header {
+  background: #ccc;
+}
+.ui-datepicker-prev.ui-corner-all {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  cursor: pointer;
+}
+.ui-datepicker-next.ui-corner-all {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  cursor: pointer;
+}
+.ui-datepicker-title {
+  text-align: center;
+  padding: 5px;
+}
+
+/* Appoinment History */
+.appoinment-history .doc-single {
+  margin: 0px 0px 20px 0px;
+  background: #fff;
+}
+.appoinment-history .padding-sm {
+  padding: 10px 0 !important;
+}
+.appoinment-history h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
+.appoinment-date {
+  padding: 10px;
+  background: #fff;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+.appoinment-date h6 {
+  color: #555;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.appoinment-top {
+  margin: -15px;
+  background: #f9f9f9;
+  padding: 2px 15px;
+  margin: 0;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+}
+.appoinment-top p {
+  color: #555;
+  font-weight: 500;
+}
+.appoinment-top span.confirm {
+  font-size: 12px;
+  color: #00a65a;
+}
+.appoinment-top span.pending {
+  font-size: 12px;
+  color: #efb300;
+}
+.appoinment-top span.cancel {
+  font-size: 12px;
+  color: #d73925;
+}
+.appoinment-history .margin-bottom-extrasmall {
+  margin-bottom: 5px !important;
+}
+.appoinment-history .btn-alt.small.active.doc-btn {
+  display: block;
+  float: none;
+  width: 110px;
+  cursor: pointer;
+  margin: 5px auto;
+  text-transform: capitalize;
+}
+.appoinment-history a.btn-alt {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.appoinment-history a.btn-alt.small {
+  height: 30px;
+  line-height: 28px;
+}
+
+/*Discount History*/
+.discount-history table{
+  /*background: #fff;*/
+}
+.discount-history table th {
+    background: #36B7B4 !important;
+    padding: 15px !important;
+    border: 0;
+    text-align: center;
+    font-weight: 500;
+}
+.discount-history table td {
+  /*padding: 5px !important;*/
+  text-align: center;
+  color: #666;
+    border: 1px solid #f0f0f0;
+    background: #FFFFFF;
+    padding: 15px !important;
+}
+.discount-history h5 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #666;
+  margin-top: 0px;
+}
+/*.user-discount-area {*/
+  /*margin-left: 30px;*/
+/*}*/
+.discount-history {
+  margin: 0px 20px 20px 0px;
+  position: relative;
+}
+.my-questions .pagination {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.my-questions h4.questions-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: inherit;
+  color: #666;
+  font-weight: 400 !important;
+  padding-left: 30px;
+  letter-spacing: 0.6px;
+  margin: 0px;
+  /*width:95%;*/
+}
+.my-questions .panel-default>.panel-heading {
+  background-image: none !important;
+  background-color: #fff;
+}
+
+/*Subscription statr*/
+.subscriptions-history .panel.panel-default {
+	float: left;
+	width: 100%;
+  position: relative;
+}
+.subscriptions-history .panel-heading.border-none {
+	float: left;
+	width: 100%;
+}
+.sbu-icon {
+	float: none;
+	margin: 10px auto;
+	width: 50px;
+}
+.sbu-icon img {
+	margin-top: -12px;
+	float: left;
+  width: 50px;
+}
+.subscriptions-history h3 {
+   font-size: 16px;
+   float: left;
+   width: 100%;
+   text-align: center;
+   margin: 0px;
+}
+.subscriptions-history p {
+  margin-bottom: 10px;
+}
+.subscriptions-history p a{
+  font-size: 12px;
+}
+.subscriptions-history p:last-of-type {
+	margin-bottom: 5px !important;
+}
+.subscriptions-history p span {
+	font-weight: 500;
+	width: 75px;
+	display: inline-block;
+}
+.subscriptions-history .sub-info {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+.sub-price{
+  font-size: 16px;
+  font-weight: 500;
+}
+.subscriptions-history .panel{
+	border: 0px;
+}
+.subscriptions-history .more-tips {
+	width: 180px;
+}
+.subscriptions-history .more-tips .btn.margin-null.more {
+	line-height: 34px;
+	height: auto;
+	font-weight: 400;
+	margin-top: 15px !important;
+}
+.profile-update .login-btn {
+	background-color: #36B7B4;
+	color: #fff !important;
+	height: 40px;
+	line-height: 30px;
+	border: 1px solid #36B7B4;
+	transition: all .4s ease;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	border-radius: 6px;
+
+}
+.profile-update .login-btn:hover {
+  background-color: #fff;
+  color: #00d4a4 !important;
+  transition: all .4s ease;
+  border: 1px solid #00d4a4;
+}
+.my-questions .panel{
+	border: 0px;
+}
+.sub-active span {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	width: 85px;
+	margin: 0px -23px 0 0;
+	-webkit-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+	display: block;
+	position: absolute;
+	left: 10px;
+	font-weight: 400;
+	line-height: 25px;
+	background: #00d4a4;
+	border-radius: 50%;
+}
+.sub-inactive span {
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	width: 85px;
+	margin: 0px -23px 0 0;
+	-webkit-transform: rotate(-40deg);
+	-ms-transform: rotate(-40deg);
+	-o-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+	display: block;
+	position: absolute;
+	left: 10px;
+	font-weight: 400;
+	line-height: 25px;
+	background: #666;
+	border-radius: 50%;
+}
+.appoinment-history .alert .close {
+	background: #ed1c24 !important;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 18px;
+	line-height: 20px;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+.appoinment-history .appoinment-con-img {
+	width: 80px;
+	float: none;
+	margin: 15px 20px;
+}
+.appoinment-history .con-content{
+  margin-top: 10px;
+}
+.appoinment-history .con-content p{
+  margin-bottom: 10px !important;
+}
+
+.appoinment-history .doc-single.alert{
+  background-color: #d0f5d0 !important;
+  }
+  .appoinment-history .doc-single .con-content strong{
+    margin-bottom: 10px;
+    display: block;
+  }
+span.approved{
+  color: #00a65a;
+}
+span.approved i.ion-checkmark-circled, span.confirm i.ion-checkmark-circled {
+    font-size: 15px !important;
+}
+span.discard{
+  color: #d73925;
+}
+span.discard i.ion-close-circled {
+    font-size: 15px !important;
+}
+span.pending{
+  color: #F7941E;
+}
+span.pending i.ion-ios-refresh {
+    font-size: 15px !important;
+}
+span.pending i.ion-checkmark-round {
+    font-size: 15px !important;
+}
+span.cancel i.ion-ios-close {
+    font-size: 15px !important;
+}
+.profile-update label {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.profile-title {
+    border-bottom: 1px solid #36B7B4;
+    font-size: 22px;
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    padding: 0px 0px 10px 0px;
+}
+.profile-title.appoinment {
+	width: 94%;
+}
+/*subscriptions-history start here*/
+.subscriptions-history .ques-meta {
+	margin-left: 0;
+}
+.sub-history table {
+	border: 0px solid #A0A2A4 !important;
+}
+.sub-history tr {
+	/*background-color: #fff;*/
+}
+.sub-history th {
+	padding: 10px 10px !important;
+  background: #fff;
+  color: #666;
+  text-align: center;
+  border: 0px;
+  font-weight: 600;
+  color: #2F2F2F;
+
+}
+
+.sub-history .table > thead > tr > th {
+	border-bottom: 1px solid #36B7B4;
+}
+.sub-history table td {
+	/*padding: 10px 15px !important;*/
+    padding: 20px !important;
+	border-left: 0px solid #ccc;
+	border-right: 0px solid #ccc;
+	border-top: 0px solid #ccc;
+	border-bottom: 1px solid #36B7B4;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+}
+
+/*.sub-history table td:first-child{*/
+/*    border-right: 1px solid #36B7B4;*/
+/*}*/
+.sub-history table td a {
+  color: #00d4a4;
+}
+.subscriptions-history .user-profile h2{
+  font-size: 17px;
+    color: #2F2F2F;
+}
+.plan-price {
+	background: #fff;
+	color: #00d4a4;
+	padding: 5px 0px;
+	border-radius: 4px;
+	font-size: 18px;
+	margin-left: 15px;
+}
+.subscriptions-history a.plan-card:hover{
+  background: #00d4a4;
+}
+.subscriptions-history.my-questions .panel-default > .panel-heading{
+  transition: all .3s ease-in-out;
+}
+
+.subscriptions-history.my-questions .panel-default > .panel-heading:hover {
+  background: #f9f9f9;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  margin-top: -10px;
+}
+.sub-details th {
+  text-align: left;
+  padding-left: 20px !important;
+}
+.sub-details table td {
+	text-align: left !important;
+  padding-left: 20px !important;
+}
+.my-questions .sub-history.sub-details a{
+  	background: transparent;
+  	padding: 0;
+  	color: #00d4a4;
+  	margin: 5px 0;
+  	display: inline-block;
+  	font-weight: 500;
+  	transition: all .4s ease;
+  	border: 0px solid #00d4a4;
+
+}
+.my-questions .sub-history.sub-details a:hover{
+  	color: #00d4a4;
+}
+.subscriptions-history .phr-create-img {
+	float: none;
+	margin: 0 auto;
+	width: 70px;
+}
+.swal2-modal.swal2-show {
+    width: 400px !important;
+    border-radius: 4px !important;
+}
+.swal2-modal .swal2-styled {
+    font-size: 14px !important;
+}
+.swal2-container.swal2-shown {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.swal2-cancel.swal2-styled {
+    background-color: #00d4a4 !important;
+}
+.swal2-icon {
+	width: 80px;
+	height: 80px;
+	border: 0px solid transparent !important;
+	border-radius: 0px !important;
+	margin: 20px auto 5px !important;
+	padding: 0;
+	position: relative;
+	box-sizing: content-box;
+	cursor: default;
+	user-select: none;
+}
+.swal2-icon.swal2-warning {
+	background-image: url(../../img/warning.png);
+	color: transparent !important;
+	border-color: #facea8;
+	font-size: 60px;
+	line-height: 80px;
+	text-align: center;
+  background-repeat: no-repeat;
+}
+
+/* .swal2-success-ring {
+	background-image: url(../../img/success.png);
+	color: transparent !important;
+	border-color: #facea8;
+	font-size: 60px;
+	line-height: 80px;
+	text-align: center;
+  background-repeat: no-repeat;
+}
+.swal2-icon.swal2-success .swal2-success-ring {
+	width: 80px;
+	height: 80px;
+	border: 0px solid transparent !important;
+  border-radius: 0px !important;
+	box-sizing: content-box;
+	position: absolute;
+	left: -4px;
+	top: -4px;
+	z-index: 2;
+} */
+
+/*Claim history*/
+ul.timeline li:nth-child(2n+1) .title {
+    width: 3%;
+}
+ul.timeline li .content {
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    float: right;
+    padding-left: 15px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 0px;
+    position: relative;
+    -webkit-transition: width 0.3s; /* Safari */
+    transition: width 0.3s;
+}
+/*ul.timeline li .content:before {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 15px solid transparent;*/
+/*    border-bottom: 15px solid transparent;*/
+/*    border-right:15px solid #fff;*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    left: -15px;*/
+/*    top: 23px;*/
+/*}*/
+ul.timeline li {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #36B7B4;
+    background: #fff;
+}
+
+ul.timeline li .content p {
+    margin-bottom: 0px !important;
+}
+ul.timeline li:nth-child(2n+1) .content {
+    padding-left: 15px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+ul.timeline li .timeline-badge {
+    left: 3%;
+}
+ul.timeline::before {
+    left: 3%;
+}
+.claim-year {
+    background: #F7941E;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+    width: 50%;
+
+}
+.timeline .content div {
+    float: left;
+    width: 17%;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+}
+.claim-details:hover .content {
+    /*width: 92%;*/
+}
+.timeline .content div:last-child {
+    border-right: 0px solid #e6e6e6;
+}
+.timeline .content div span{
+    display: block;
+}
+.sub-date {
+    width: 55px !important;
+    height: 55px;
+    background: #36B7B4;
+    /*border-radius: 50%;*/
+    margin-right: 20px;
+    color: #fff !important;
+}
+.sub-date p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600 !important;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.sub-type p{
+    font-size: 15px;
+}
+.sub-type p span,.sub-ticket p span,.ins-type p span {
+    color: #F7941E;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.claim-status{
+    width: 110px !important;
+    margin: 0 15px 0 15px;
+}
+.ticket-status{
+    width: 110px !important;
+    margin: 0 15px 0 15px;
+}
+.ticket-status span {
+    color: #fff !important;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    margin-right: 15px !important;
+    font-size: 13px;
+    background: green;
+}
+.claim-status span {
+    color: #fff !important;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    margin-right: 15px !important;
+    font-size: 13px;
+}
+
+.claim-status span.applied {
+    background: #00d4a4;
+}
+.claim-status span.in-prog {
+    background: #ffc107;
+}
+.claim-status span.rejected  {
+    background: #F7941E;
+}
+.claim-status span.approved {
+    background: #36B7B4;
+}
+
+.ticket-status span.open {
+    background: #36B7B4;
+}
+.ticket-status span.closed {
+    background: #c91f0d;
+}
+
+.status-bg-applied {
+    background: #00d4a4;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+.status-bg-approved {
+    background: #69bd69;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+.status-bg-rejected {
+    background: #c91f0d;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+.status-bg-in-prog {
+    background: #ffc107;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.status-bg-open {
+    background: #69bd69;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+.status-bg-closed {
+    background: #c91f0d;
+    padding: 5px 15px;
+    display: inline !important;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+ul.timeline li .timeline-badge {
+    background-color: #00d4a4;
+}
+ul.timeline li .timeline-badge {
+    top: 28px;
+}
+ul.timeline li:hover .timeline-badge {
+    top: 32px;
+}
+.attachment {
+    float: left;
+    max-width: 130px;
+    text-align: center;
+}
+.attachment a {
+    margin: 0px !important;
+}
+.insurance-details span {
+    display: inline-block;
+    width: 230px;
+}
+
+a.claim-edit {
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+a.claim-edit span.ion-ios-compose-outlinefvfv{
+    font-size: 15px;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+ opacity: 0;
+ -webkit-backface-visibility: hidden;
+ -webkit-transition: all 0.3s ease-out;
+ -moz-transition: all 0.3s ease-out;
+ -o-transition: all 0.3s ease-out;
+ transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
+.mfp-no-margins img.mfp-img {
+    padding: 0;
+}
+.mfp-no-margins .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+}
+.mfp-no-margins .mfp-container {
+    padding: 0;
+}
+
+.mfp-title {
+    text-align: center;
+    padding: 6px 0;
+}
+.image-source-link {
+    color: #DDD;
+}
+.without-caption.image-link img {
+    margin: 10px;
+}
+
+.additional-info-box {
+    margin-left: 15px !important;
+    margin-top: 10px;
+}
+.additional-info-box p {
+    color: #666;
+    font-size: 13px;
+}
+.ask-btn{
+    margin-top: 20px;
+    float: left;
+}
+.question-info label {
+    margin-top: 10px;
+}
+
+#repostDetails {
+    margin: 0;
+    border: 0 !important;
+    text-align: left;
+    padding: 0;
+}
+#repostDetails .alert.alert-success{
+    border: 0px !important;
+}
+#repostDetails .close.repost {
+    font-size: 20px !important;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+#repostDetails p{
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.my-prescription .doctor-info {
+	padding: 20px;
+	border-bottom: 1px solid #cbcbcb;
+}
+.my-prescription .doctor-info .eng p {
+	font-weight: 400;
+}
+.my-prescription .doctor-info .eng h1 {
+	font-size: 26px;
+}
+.my-prescription .doctor-info .ban p{
+  font-family: "Poppins", "SolaimanLipi", sans-serif;
+}
+.my-prescription .doctor-info .ban p:first-child{
+	font-size: 26px;
+  font-family: "Poppins", "SolaimanLipi", sans-serif;
+  margin-bottom: 10px;
+  color: #555;
+}
+.my-prescription .doctor-info p {
+	margin-bottom: 2px;
+}
+.patient-info {
+	padding: 0px 20px;
+	border-bottom: 1px solid #555;
+}
+.patient-info {
+    padding: 3px 20px 2px 20px;
+    border-bottom: 1px solid #cbcbcb;
+}
+.patient-info p{
+ padding: 5px 0px;
+}
+.patient-info h3 {
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 4px;
+}
+.my-prescription p:last-of-type {
+	margin-bottom: 0px !important;
+}
+.prescription-details {
+	padding: 0 20px;
+}
+.prescription-left-bar {
+	border-right: 1px solid #555;
+}
+.prescription-left-bar {
+	border-right: 1px solid #cbcbcb;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.prescription-medication-area {
+	padding-top: 20px;
+}
+.left-bar-header {
+	font-weight: 600;
+}
+.prescription-footer {
+	border-top: 1px solid #cbcbcb;
+	padding: 20px;
+}
+.left-block {
+	min-height: 70px;
+}
+.rx-header {
+	font-weight: 600;
+}
+.medicine-name {
+	font-weight: 500;
+}
+.advices-area {
+	margin-top: 30px;
+}
+.follow-up-area {
+	margin-top: 30px;
+}
+.followup-right-bar span {
+	font-weight: 600;
+	margin-left: 30px;
+}
+.followup-right-bar span:first-child {
+	margin-left: 0px;
+}
+.patients-vitals-left-bar {
+	margin-bottom: 20px;
+}
+.patients-vitals-left-bar p{
+  margin-bottom: 0px;
+}
+.patients-vitals-left-bar p span{
+  font-weight: 500;
+  margin-right: 5px;
+}
+.prescription-table{
+  border:0px solid #fff !important;
+}
+.prescription-table.table.table-sm.table-bordered.table-responsive.table-center th {
+	padding: 7px 15px !important;
+	background: #00d4a4;
+	border: 0px solid #fff;
+	font-weight: 500;
+    color: #F7941E;
+}
+.prescription-table.table.table-sm.table-bordered.table-responsive.table-center th a {
+  font-size: 13px !important;
+}
+.prescription-table.table.table-sm.table-bordered.table-responsive.table-center td {
+	/*padding: 5px 15px !important;*/
+  /*background: #fff;*/
+  border: 0px;
+    color: #2F2F2F;
+}
+.prescription-footer {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.prescription-downoad {
+	background: #00d4a4;
+	font-size: 13px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	width: 185px;
+	text-align: center;
+	float: right;
+	margin: 0 auto;
+	display: block;
+	color: #fff;
+  border: 1px solid #00d4a4;
+}
+.prescription-downoad:hover {
+	background: #fff;
+	font-size: 13px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	width: 185px;
+	text-align: center;
+	float: right;
+	margin: 0 auto;
+	display: block;
+	color: #00d4a4;
+}
+.prescription-downoad .fa.fa-file-pdf-o{
+  font-size: 13px;
+  margin-right: 2px;
+}
+.prescription-table a .fa.fa-external-link{
+  font-size: 13px;
+}
+.prescription-table tbody tr {
+	border-top: 3px solid #eee;
+}
+.col-md-6.eng {
+    margin-bottom: 20px;
+}
+.my-prescrip-img {
+    float: left;
+    width: 18px;
+    margin-right: 5px;
+}
+.question-edit {
+    background: #00d4a4;
+    padding: 0px 10px;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-top: 0px;
+    color: #fff !important;
+    font-size: 12px !important;
+    position: absolute;
+    right: 10px;
+}
+.question-edit .ion-ios-compose-outline {
+    font-size: 15px;
+}
+.my-questions .ques-meta {
+    padding-bottom: 0px;
+}
+.claim-insurance-alert.alert.alert-success strong{
+    color: #04c304;
+}
+
+.claim-insurance-alert.alert.alert-success {
+    border-color: #04c304;
+}
+
+.sample_details{
+    color: #FFFFFF;
+    background: #36B7B4 !important;
+}
+
+.more-btn {
+    background-color: #36B7B4 !important;
+    color: #fff;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+}
+
+.phr-create-img {
+    float: none;
+    margin: 50px auto 30px;
+    /*width: 90px;*/
+    width: 50% !important;
+}
+
+a.covid-add-btn {
+    border: 1px solid #00d4a4;
+    border-radius: 5px;
+    padding: 5px;
+}
